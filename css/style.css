@@ -1,0 +1,104 @@
+/* style.css */
+
+/* Header */
+body{
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  .header-logo {
+    max-width: 100px;
+    cursor: pointer;
+    height: auto;
+  }
+  
+  .header-list {
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    gap:5%;
+    /* background-color: aqua; */
+    width: 20%;
+  }
+  .list-item {
+    display: flex;
+    /* width: 100%; */
+    cursor: pointer;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid gold;
+    border-radius: 10px; /* Adjust the border radius value as needed */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow */
+    background-color: lightgray;
+    padding: 10px;
+}
+.card-image {
+    flex: 1;
+    margin-right: 20px;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-details {
+    flex: 2;
+}
+
+.title-style {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.duration {
+    font-size: 16px;
+    color: #999;
+}
+  
+  .title-style {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  
+  .inner-container {
+    padding: 20px;
+  }
+  
+
+li {
+    list-style: none;
+    padding: 2%;
+}
+.title-style {
+    text-decoration: none;
+    font-size: 3xl;
+}
