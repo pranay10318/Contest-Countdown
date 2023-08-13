@@ -87,9 +87,11 @@ function Ongoing() {
 
 function Upcoming() {
     // console.log("UPCOMING CALL")
-    const upcoming = contests.filter(contest =>
-        contest.status === "BEFORE"
-    );
+    const upcoming = contests.filter((contest) =>{
+        const now = new Date();
+        const startTime = new Date(contest.start_time);
+        return contest.status === "BEFORE" && now<startTime;
+    });
 
     return (
         <div>
